@@ -1,0 +1,40 @@
+{
+  "name": "practice-react-redux",
+  "version": "1.0.0",
+  "description": "Workshop for practicing React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --mode development",
+    "lint": "eslint ./src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dori-laszlo/practice-react-redux.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Dóra László",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dori-laszlo/practice-react-redux/issues"
+  },
+  "homepage": "https://github.com/dori-laszlo/practice-react-redux#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
